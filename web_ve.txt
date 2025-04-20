@@ -1,0 +1,3 @@
+https://solana-sniper-liard.vercel.app
+
+https://github.com/ninjock1981/Solana_Sniper.git

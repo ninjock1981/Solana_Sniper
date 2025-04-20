@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+  backend:
+    container_name: solana_sniper_backend
+    build: .
+    ports:
+      - "8081:8081"
+      - "8082:8082"
+    volumes:
+      - ./minted_nfts.sqlite:/app/minted_nfts.sqlite
+    restart: always
